@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 * {
@@ -15,15 +16,13 @@ html {
 }
 
 :root {
-  --bg-color: #d6e2f0;
-  --card-color: #ffffff;
-  --paragraph-color: #7b879d;
-  --title-color: #1f3251;
-
-  --font: "Outfit", sans-serif;
+  --background: #d6e2f0;
+  --card: #ffffff;
+  --description: #7b879d;
+  --title: #1f3251;
 }
 
 body {
-  background-color: var(--bg-color);
-  font-family: var(--font);
+  background-color: var(--background);
+  font-family: "Outfit", sans-serif;
 }
