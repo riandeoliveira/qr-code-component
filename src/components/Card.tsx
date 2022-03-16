@@ -1,12 +1,24 @@
-import styles from "../styles/Card.module.css";
-import { Image } from "./Image";
-import { Main } from "./Main";
+import {
+  CardContainer,
+  Image,
+  DescriptionContainer,
+  Title,
+  Description,
+} from "../styles/Card";
+import img from "../assets/qr-code.png";
 
 export const Card: React.FC = () => {
   return (
-    <div className={styles.container}>
-      <Image />
-      <Main />
-    </div>
+    <CardContainer>
+      <Image src={img} alt="QR code image" />
+      <DescriptionContainer>
+        <Title>Improve your front-end skills by building projects</Title>
+        <Description>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </Description>
+      </DescriptionContainer>
+    </CardContainer>
   );
 };
+  
