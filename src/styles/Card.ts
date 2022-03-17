@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { fadeIn, increase } from "./animations/animations";
 
 export const CardContainer = styled.div`
   background-color: var(--card);
@@ -7,16 +8,23 @@ export const CardContainer = styled.div`
   margin: 20px;
   max-width: 375px;
   padding: 20px;
+  text-align: center;
 `;
 
 export const Image = styled.img`
+  animation: increase 0.5s ease forwards, fadeIn 0.5s ease;
   border-radius: 13px;
-  width: 100%;
+  width: 0%;
+
+  ${fadeIn}
+  ${increase}
 `;
 
 export const DescriptionContainer = styled.div`
+  animation: fadeIn 0.5s ease;
   margin: 20px 0;
-  text-align: center;
+
+  ${fadeIn}
 `;
 
 export const Title = styled.h1`

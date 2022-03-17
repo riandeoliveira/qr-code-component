@@ -5,7 +5,7 @@ import {
   Title,
   Description,
 } from "../styles/Card";
-import img from "../assets/qr-code.png";
+import img from "../assets/images/qr-code.png";
 
 export const Card: React.FC = () => {
   return (
