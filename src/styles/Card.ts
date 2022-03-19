@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { fadeIn, increase } from "./animations/animations";
 
 export const CardContainer = styled.div`
   background-color: var(--card);
@@ -12,19 +11,40 @@ export const CardContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  animation: increase 0.5s ease forwards, fadeIn 0.5s ease;
+  animation: fade-in 0.5s ease, increase 0.5s ease forwards;
   border-radius: 13px;
   width: 0%;
 
-  ${fadeIn}
-  ${increase}
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes increase {
+    to {
+      width: 100%;
+    }
+  }
 `;
 
 export const DescriptionContainer = styled.div`
-  animation: fadeIn 0.5s ease;
+  animation: fade-in 0.5s ease;
   margin: 20px 0;
 
-  ${fadeIn}
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Title = styled.h1`
