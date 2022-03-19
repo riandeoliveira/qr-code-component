@@ -7,7 +7,7 @@ Desenvolvido com base no [design](https://www.frontendmentor.io/challenges/qr-co
 ## Demonstração
 
 <div align="center">
-  <img src="demo/qr-code-component.gif" alt="Application demo GIF. Reloading the page to show animations and resizing the screen to show responsiveness."></img>
+  <img alt="Application demo GIF. Reloading the page to show animations and resizing the screen to show responsiveness." src="demo/qr-code-component.gif"></img>
 </div>
 
 ## Como acessar
@@ -18,10 +18,10 @@ A aplicação está hospedada no GitHub Pages e pode ser acessada [aqui](https:/
 
 <div align="center">
   <h3>Front-End</h3>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5 logo. An orange shield with a large white number five in the middle." width="50" height="35" title="HTML5 logo"></img>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3 logo. A blue shield with a large white number three in the middle." width="50" height="35" title="CSS3 logo"></img>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript logo. A yellow square with the dark letters JS in the lower right corner." width="50" height="35" title="JavaScript logo"></img>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React logo. A blue atom." width="50" height="35" title="React.js logo"></img>
+  <img alt="HTML5 logo. An orange shield with a large white number five in the middle." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="35" title="HTML5 logo" width="50"></img>
+  <img alt="CSS3 logo. A blue shield with a large white number three in the middle." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="35" title="CSS3 logo" width="50"></img>
+  <img alt="JavaScript logo. A yellow square with the dark letters JS in the lower right corner." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="35" title="JavaScript logo" width="50"></img>
+  <img alt="React logo. A blue atom." src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" height="35" title="React.js logo" width="50"></img>
 </div>
 
 ## Atualizado em
