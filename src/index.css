@@ -3,16 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 * {
+  border: 0;
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  list-style: none;
   margin: 0;
+  outline: 0;
   padding: 0;
-}
-
-html {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
+  text-decoration: none;
 }
 
 :root {
@@ -22,7 +20,13 @@ html {
   --title: #1f3251;
 }
 
+html {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
 body {
   background-color: var(--background);
-  font-family: "Outfit", sans-serif;
 }
