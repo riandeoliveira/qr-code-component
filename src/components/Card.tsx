@@ -13,7 +13,7 @@ const { title, description } = data;
 export const Card: React.FC = () => {
   return (
     <CardContainer>
-      <Image src={img} alt="QR code image" />
+      <Image alt="QR code image" src={img} />
       <DescriptionContainer>
         <Title>{title}</Title>
         <Description>{description}</Description>
