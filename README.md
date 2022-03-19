@@ -12,7 +12,7 @@ Desenvolvido com base no [design](https://www.frontendmentor.io/challenges/qr-co
 
 ## Como acessar
 
-A aplicação está hospedada no GitHub Pages e pode ser acessada [aqui](https://riandeoliveira.github.io/qr-code-component/).
+A aplicação está hospedada no **GitHub Pages** e pode ser acessada [aqui](https://riandeoliveira.github.io/qr-code-component/).
 
 ## Tecnologias utilizadas
 
