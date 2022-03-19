@@ -10,7 +10,7 @@ export const CardContainer = styled.div`
   text-align: center;
 `;
 
-export const Image = styled.img`
+export const QRCode = styled.img`
   animation: fade-in 0.5s ease, increase 0.5s ease forwards;
   border-radius: 13px;
   width: 0%;
