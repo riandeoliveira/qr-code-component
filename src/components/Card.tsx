@@ -1,3 +1,4 @@
+import data from "../data/data.json";
 import {
   CardContainer,
   Image,
@@ -6,7 +7,6 @@ import {
   Description,
 } from "../styles/Card";
 import img from "../assets/images/qr-code.png";
-import data from "../data/data.json";
 
 const { title, description } = data;
 
