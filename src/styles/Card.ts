@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "../styles/animations/animations.css";
 
 export const CardContainer = styled.div`
   background-color: var(--card);
