@@ -16,6 +16,7 @@
 
 :root {
   --background: #d6e2f0;
+  --card-shadow: #0000001a;
   --card: #ffffff;
   --description: #7b879d;
   --title: #1f3251;
