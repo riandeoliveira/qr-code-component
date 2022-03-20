@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "../styles/animations/animations.css";
 
 export const CardContainer = styled.div`
   background-color: var(--card);
@@ -14,37 +15,11 @@ export const QRCode = styled.img`
   animation: fade-in 0.5s ease, increase 0.5s ease forwards;
   border-radius: 13px;
   width: 0%;
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes increase {
-    to {
-      width: 100%;
-    }
-  }
 `;
 
 export const DescriptionContainer = styled.div`
   animation: fade-in 0.5s ease;
   margin: 20px 0;
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
 `;
 
 export const Title = styled.h1`
