@@ -6,7 +6,7 @@
 * {
   border: 0;
   box-sizing: border-box;
-  font-family: var(--primary), var(--secondary);
+  font-family: var(--primary-font), var(--secondary-font);
   list-style: none;
   margin: 0;
   outline: 0;
@@ -15,14 +15,14 @@
 }
 
 :root {
-  --background: #d6e2f0;
-  --card-shadow: #0000001a;
-  --card: #ffffff;
-  --description: #7b879d;
-  --title: #1f3251;
+  --cloud-burst-color: #1f3251;
+  --cod-gray-color: #1f1c1c42;
+  --periwinkle-gray-color: #d6e2f0;
+  --regent-gray-color: #7b879d;
+  --white-color: #ffffff;
 
-  --primary: "Outfit";
-  --secondary: sans-serif;
+  --primary-font: "Outfit";
+  --secondary-font: sans-serif;
 }
 
 html {
@@ -33,5 +33,5 @@ html {
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--periwinkle-gray-color);
 }
