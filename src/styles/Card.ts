@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
-  background-color: var(--card);
+  background-color: var(--white-color);
   border-radius: 20px;
-  box-shadow: 0 20px 25px var(--card-shadow);
+  box-shadow: 0 20px 25px var(--cod-gray-color);
   margin: 20px;
   max-width: 375px;
   padding: 20px;
@@ -22,12 +22,12 @@ export const DescriptionContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: var(--title);
+  color: var(--cloud-burst-color);
   font-size: 26px;
   margin-bottom: 20px;
 `;
 
 export const Description = styled.p`
-  color: var(--description);
+  color: var(--regent-gray-color);
   font-size: 19px;
 `;
