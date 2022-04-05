@@ -10,7 +10,7 @@ import { qrCode } from "../assets/media";
 
 const { qr_code_alt, title, description } = content;
 
-export const Card: React.FC = () => {
+const Card: React.FC = () => {
   return (
     <CardContainer>
       <QRCode alt={qr_code_alt} src={qrCode} />
@@ -21,3 +21,5 @@ export const Card: React.FC = () => {
     </CardContainer>
   );
 };
+
+export default Card;
