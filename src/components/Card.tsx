@@ -1,4 +1,4 @@
-import data from "../data/data.json";
+import content from "../content/card.json";
 import {
   CardContainer,
   QRCode,
@@ -6,9 +6,9 @@ import {
   Title,
   Description,
 } from "../styles/Card";
-import qrCode from "../assets/images/qr-code.png";
+import { qrCode } from "../assets/media";
 
-const { qr_code_alt, title, description } = data;
+const { qr_code_alt, title, description } = content;
 
 export const Card: React.FC = () => {
   return (
