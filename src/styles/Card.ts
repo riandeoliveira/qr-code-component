@@ -4,7 +4,7 @@ import theme from "./theme/theme.json";
 export const CardContainer = styled.div`
   background-color: ${theme.colors.white};
   border-radius: 20px;
-  box-shadow: 0 20px 25px ${theme.colors["cod-gray"]};
+  box-shadow: 0 20px 25px ${theme.colors["cod_gray"]};
   margin: 20px;
   max-width: 375px;
   padding: 20px;
@@ -23,12 +23,12 @@ export const DescriptionContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: ${theme.colors["cloud-burst"]};
+  color: ${theme.colors["cloud_burst"]};
   font-size: 26px;
   margin-bottom: 20px;
 `;
 
 export const Description = styled.p`
-  color: ${theme.colors["regent-gray"]};
+  color: ${theme.colors["regent_gray"]};
   font-size: 19px;
 `;

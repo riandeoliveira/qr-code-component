@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${theme.colors["periwinkle-gray"]};
+    background-color: ${theme.colors["periwinkle_gray"]};
   }
 `;
 

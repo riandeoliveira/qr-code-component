@@ -1,9 +1,9 @@
 {
   "colors": {
-    "cloud-burst": "#1f3251",
-    "cod-gray": "#1f1c1c42",
-    "periwinkle-gray": "#d6e2f0",
-    "regent-gray": "#7b879d",
+    "cloud_burst": "#1f3251",
+    "cod_gray": "#1f1c1c42",
+    "periwinkle_gray": "#d6e2f0",
+    "regent_gray": "#7b879d",
     "white": "#ffffff"
   },
   "fonts": {
