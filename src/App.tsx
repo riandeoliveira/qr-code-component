@@ -5,7 +5,7 @@ const App: React.FC = (): JSX.Element => {
   return (
     <AppBox>
       <img
-        alt="White QR code in the middle of a blue background."
+        alt="White QR code in the middle of a blue background"
         src={qrCode}
       />
       <div>
