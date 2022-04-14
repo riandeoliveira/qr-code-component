@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import theme from "./theme/theme.json";
 
-export const AppBox = styled.div`
+const AppBox = styled.div`
   background-color: ${theme.colors.white};
   border-radius: 20px;
   box-shadow: 0 20px 25px ${theme.colors.cod_gray};
@@ -32,3 +32,5 @@ export const AppBox = styled.div`
     }
   }
 `;
+
+export default AppBox;

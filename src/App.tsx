@@ -1,4 +1,4 @@
-import { AppBox } from "./styles/App";
+import AppBox from "./styles/App";
 import qrCode from "./assets/qr-code.png";
 
 const App: React.FC = (): JSX.Element => {
